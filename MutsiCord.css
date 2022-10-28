@@ -5,11 +5,10 @@
  * @version 1.0.0
 */
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
-@import url(https://crearts-community.github.io/CreArts-Discord/modules/addons/settings-icons.css);
-@import url(https://crearts-community.github.io/CreArts-Discord/modules/addons/discolored.css);
-@import url(https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css);
+@import url(https://muttc.github.io/MutsiCord/MutsiCord-base.css);
+@import url(https://muttc.github.io/MutsiCord/apple_emoji.css);
+@import url(https://muttc.github.io/MutsiCord/settings-icons.css);
+@import url(https://muttc.github.io/MutsiCord/gift.css);
 
 :root {
   --accentcolor: 114,137,218;
