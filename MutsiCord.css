@@ -1,0 +1,64 @@
+/**
+ * @name MutsiCord
+ * @description Darker Discord Native theme, with a few tweaks.
+ * @author MuttC
+ * @version 1.0.0
+*/
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+@import url(https://crearts-community.github.io/CreArts-Discord/modules/addons/settings-icons.css);
+@import url(https://crearts-community.github.io/CreArts-Discord/modules/addons/discolored.css);
+@import url(https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css);
+
+:root {
+  --accentcolor: 114,137,218;
+  --accentcolor2: 255,115,250;
+  --linkcolor: 0,176,244;
+  --mentioncolor: 250,166,26;
+  --textbrightest: 255,255,255;
+  --textbrighter: 222,222,222;
+  --textbright: 185,185,185;
+  --textdark: 140,140,140;
+  --textdarker: 115,115,115;
+  --textdarkest: 80,80,80;
+  --font: Whitney;
+  --backgroundaccent: 50,50,50;
+  --backgroundprimary: 30,30,30;
+  --backgroundsecondary: 20,20,20;
+  --backgroundsecondaryalt: 15,15,15;
+  --backgroundtertiary: 10,10,10;
+  --backgroundfloating: 0,0,0;
+  --settingsicons: 1;
+}
+
+/* Hide Nitro Tab in Friends Menu */
+.channel-1Shao0.container-32HW5s[aria-posinset="2"] {
+    display: none;
+}
+
+/* Hide Nitro Boost Banner */
+div.container-2giAcK[tabindex="0"] {
+    display: none;
+}
+
+/*Remove Sticker Button */
+.stickerButton-1-nFh2{
+  position: fixed;
+  visibility: hidden;
+}
+
+/*Remove Help Button */
+.anchor-1MIwyf[href="https://support.discord.com"] {
+  display: none !important;
+}
+
+/*Remove Explore Server Button */
+.scroller-3X7KbA > .listItem-3SmSlK:nth-last-child(2) {
+  display: none;
+}
+
+/*Remove Add Server Button */
+.tutorialContainer-2jwoiB {
+  display: none;
+}
